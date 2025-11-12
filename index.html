@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Learn your age!</title>
+        <link rel="stylesheet" type="text/css" href="yourkoreanageformatting.css"> 
+    </head>
+    <body>
+        <div>
+            <h1>
+                Learn your age in Korea!
+            </h1>
+            <br>
+            <p>
+                Input your birth of date here!
+            </p>
+            <input type="number" id="day" placeholder="DD" min="1" max="31">
+            <input type="number" id="month" placeholder="MM" min="1" max="12">
+            <input type="number" id="year" placeholder="YYYY" min="1900" max="2025">
+            <button onclick="calculateAge()">Find out!</button>
+            <br>
+            <p id="result"></p>
+            <h2>
+                But how does it work?
+            </h2>
+            <br>
+            <p>
+                In Korea, you start at 1 year old at birth and gain 1 year every New Year’s Day, so if your birthday hasn’t passed yet this year, you can be 2 years older than your real age.
+            </p>
+            <script src="koreanagejscript.js"></script>
+        </div>   
+    </body>
+</html>
